@@ -26,7 +26,35 @@ header {
   margin-top: 100px;
 }
 
+#pricing {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#p-title {
+  background-color: pink;
+  min-width: 100%
+}
+.btn {
+  background-color: orange;
+  width: 50%;
+  margin: 15px 0;
+}
 
-@media screen and (max-width: 992px){
 
+@media (max-width: 600px) {
+  .btn {
+    background-color: orange;
+    width: 50%;
+    margin: 5px 0;
+  }
 }
